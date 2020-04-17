@@ -1,0 +1,9 @@
+POST http://127.0.0.1:8001/api/qa/create
+
+{
+    "title": "Ajout feQA par l'API 47800",
+    "promoted": 0,
+    "status": "published",
+    "channel": "bot",
+    "body":"<p>grgrrogkrkgg</p>"
+}
