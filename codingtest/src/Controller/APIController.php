@@ -3,6 +3,7 @@
 namespace App\Controller;
 
 use App\Entity\Answers;
+use App\Entity\QuestionHistoric;
 use App\Entity\Questions;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
@@ -20,14 +21,17 @@ class APIController extends AbstractController
     public function addQA(Request $request)
     {
         $donnees = json_decode($request->getContent());
-        
+
         if(!empty($donnees))   {
 
             $title = $donnees->title;
             $promoted = $donnees->promoted;
             $status = $donnees->status;
-            $channel = $donnees->channel;
-            $body = $donnees->body;
+            $answers = $donnees->answers;
+            foreach ($answers as $row) {
+                $channel = $row->channel;
+                $body = $row->body;
+            }
 
             $em = $this->getDoctrine()->getManager();
 
@@ -58,21 +62,29 @@ class APIController extends AbstractController
     public function editQA(?Questions $question, Request $request) 
     {
         $donnees = json_decode($request->getContent());
+        $em = $this->getDoctrine()->getManager();
 
-        if(!empty($donnees) && $question != null)   {
+        if(!empty($donnees) && isset($question))   {
 
             $title = $donnees->title;
             $promoted = $donnees->promoted;
             $status = $donnees->status;
+            $questionHistoric = new QuestionHistoric();
 
-            $em = $this->getDoctrine()->getManager();
+            if(strcmp($title, $question->getTitle()) !== 0 || strcmp($status, $question->getStatus()) !== 0) 
+            {
+                $questionHistoric->setTitle($title);
+                $questionHistoric->setStatus($status);
+                $questionHistoric->setUpdated(new \DateTime());
+                $em->persist($questionHistoric);
+            }
             
             $question->setTitle($title);
             $question->setPromoted($promoted);
-            $question->setCreated(new \DateTime());
             $question->setStatus($status);
-
             $em->persist($question);
+
+
             $em->flush();
 
             return new Response('OK Updated. ', 200);

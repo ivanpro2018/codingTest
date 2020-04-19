@@ -1,9 +1,12 @@
-POST http://127.0.0.1:8001/api/qa/create
+POST http://127.0.0.1:8000/api/qa/create
+# PUT http://127.0.0.1:8000/api/qa/edit/14
 
 {
-    "title": "Ajout feQA par l'API 47800",
-    "promoted": 0,
-    "status": "published",
-    "channel": "bot",
-    "body":"<p>grgrrogkrkgg</p>"
+    "title": "AjouUt QA par l'API 7450",
+    "promoted": 1,
+    "status": "draft",
+    "answers": [{
+        "channel": "faq",
+        "body":"<p>grg hgrugurgij krkgg</p>"       
+    }]
 }

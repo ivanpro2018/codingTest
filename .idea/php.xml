@@ -105,7 +105,36 @@
       <path value="$PROJECT_DIR$/codingtest/vendor/psr/log" />
       <path value="$PROJECT_DIR$/codingtest/vendor/psr/cache" />
       <path value="$PROJECT_DIR$/codingtest/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/codingtest/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/codingtest/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/codingtest/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/codingtest/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/codingtest/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/codingtest/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/codingtest/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/codingtest/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/codingtest/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/codingtest/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/codingtest/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/codingtest/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/codingtest/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/codingtest/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/codingtest/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/codingtest/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/codingtest/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/codingtest/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/codingtest/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/codingtest/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/codingtest/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/codingtest/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/codingtest/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/codingtest/vendor/symfony/web-server-bundle" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings load_method="CUSTOM_LOADER" custom_loader_path="$PROJECT_DIR$/codingtest/vendor/autoload.php" />
+    </phpunit_settings>
+  </component>
 </project>

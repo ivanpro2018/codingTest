@@ -1,18 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f4cfdcf-27ff-4bfe-9487-b07f0d10b78f" name="Default Changelist" comment="" />
+    <list default="true" id="1f4cfdcf-27ff-4bfe-9487-b07f0d10b78f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/php-test-framework.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codingTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codingTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/codingtest/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/.env.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/bin/console" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/bin/phpunit" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/config/bootstrap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/config/bundles.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/config/packages/cache.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/config/packages/dev/debug.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/config/packages/dev/monolog.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/config/packages/dev/web_profiler.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/config/packages/doctrine.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/config/packages/doctrine_migrations.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/config/packages/framework.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/config/packages/mailer.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/config/packages/prod/doctrine.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/config/packages/prod/monolog.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/config/packages/prod/routing.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/config/packages/routing.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/config/packages/security.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/config/packages/sensio_framework_extra.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/config/packages/test/framework.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/config/packages/test/monolog.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/config/packages/test/twig.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/config/packages/test/validator.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/config/packages/test/web_profiler.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/config/packages/translation.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/config/packages/twig.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/config/packages/validator.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/config/routes.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/config/routes/annotations.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/config/routes/dev/framework.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/config/routes/dev/web_profiler.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/config/services.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/phpunit.xml.dist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/public/test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/public/testapi.rest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/src/Controller/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/src/Controller/APIController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/src/Entity/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/src/Entity/Answers.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/src/Entity/Questions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/src/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/src/Migrations/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/src/Migrations/Version20200417003252.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/src/Repository/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/src/Repository/AnswersRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/src/Repository/QuestionsRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/symfony.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/templates/api/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/templates/base.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/tests/bootstrap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/codingtest/translations/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/codingtest/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/codingtest/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/config/packages/doctrine.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/codingtest/config/packages/doctrine.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/public/testapi.rest" beforeDir="false" afterPath="$PROJECT_DIR$/codingtest/public/testapi.rest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/src/Entity/QuestionHistoric.php" beforeDir="false" afterPath="$PROJECT_DIR$/codingtest/src/Entity/QuestionHistoric.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/codingtest/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/var/cache/dev/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/codingtest/var/cache/dev/validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/var/log/dev.log" beforeDir="false" afterPath="$PROJECT_DIR$/codingtest/var/log/dev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/codingtest/vendor/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/codingtest/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/codingtest/vendor/composer/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/codingtest/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/codingtest/vendor/composer/autoload_files.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/codingtest/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/codingtest/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/codingtest/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/codingtest/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/codingtest/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingtest/vendor/ocramius/package-versions/src/PackageVersions/Versions.php" beforeDir="false" afterPath="$PROJECT_DIR$/codingtest/vendor/ocramius/package-versions/src/PackageVersions/Versions.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/codingtest/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/codingtest" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -125,6 +213,30 @@
       <path value="$PROJECT_DIR$/codingtest/vendor/psr/log" />
       <path value="$PROJECT_DIR$/codingtest/vendor/psr/cache" />
       <path value="$PROJECT_DIR$/codingtest/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/codingtest/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/codingtest/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/codingtest/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/codingtest/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/codingtest/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/codingtest/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/codingtest/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/codingtest/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/codingtest/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/codingtest/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/codingtest/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/codingtest/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/codingtest/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/codingtest/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/codingtest/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/codingtest/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/codingtest/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/codingtest/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/codingtest/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/codingtest/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/codingtest/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/codingtest/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/codingtest/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/codingtest/vendor/symfony/web-server-bundle" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -133,18 +245,41 @@
     <option name="width" value="1350" />
     <option name="height" value="690" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="codingTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codingTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codingTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codingTest" type="462c0819:PsiDirectoryNode" />
+              <item name="codingtest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codingTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codingTest" type="462c0819:PsiDirectoryNode" />
+              <item name="codingtest" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../asdefb_website" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
@@ -161,6 +296,17 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="APIControllerTest.testTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="App\Tests\APIControllerTest" file="$PROJECT_DIR$/codingtest/tests/APIControllerTest.php" method="testTest" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.APIControllerTest.testTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -173,11 +319,17 @@
       <updated>1586973831805</updated>
       <workItem from="1586973832901" duration="1541000" />
       <workItem from="1587033891946" duration="843000" />
+      <workItem from="1587320403670" duration="1057000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="APIControllerTest_testTest - 2020.04.19 at 20h 26m 36s.xml">
+      <configuration name="APIControllerTest.testTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2384000" />
+    <option name="totallyTimeSpent" value="3441000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -191,13 +343,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -205,7 +358,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3529412" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.225" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -215,5 +368,14 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/codingtest/tests/APIControllerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
